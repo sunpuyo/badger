@@ -22,8 +22,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dgraph-io/badger/y"
 	"github.com/pkg/errors"
+	"github.com/sunpuyo/badger/y"
 )
 
 // OpenManaged returns a new DB, which allows more control over setting

@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/dgraph-io/badger/y"
+	"github.com/sunpuyo/badger/y"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/trace"

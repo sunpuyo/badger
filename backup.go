@@ -22,8 +22,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/dgraph-io/badger/protos"
-	"github.com/dgraph-io/badger/y"
+	"github.com/sunpuyo/badger/protos"
+	"github.com/sunpuyo/badger/y"
 )
 
 func writeTo(entry *protos.KVPair, w io.Writer) error {

@@ -25,8 +25,8 @@ import (
 
 	"golang.org/x/net/trace"
 
-	"github.com/dgraph-io/badger/table"
-	"github.com/dgraph-io/badger/y"
+	"github.com/sunpuyo/badger/table"
+	"github.com/sunpuyo/badger/y"
 )
 
 type keyRange struct {
